@@ -1,0 +1,7 @@
+{
+  "parent": "superiorsmithing:custom/riveted_shield_up",
+  "textures": {
+    "1": "superiorsmithing:block/riveted_shield",
+    "particle": "superiorsmithing:item/shield"
+  }
+}

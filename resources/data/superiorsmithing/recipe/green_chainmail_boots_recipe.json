@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_chainmail_armor_boots"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:green_chainmail_armor_boots",
+    "count": 1
+  }
+}

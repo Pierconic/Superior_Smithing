@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:chainmail_boots"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "superiorsmithing:jeweled_chainmail_armor_boots"
+  }
+}

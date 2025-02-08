@@ -1,0 +1,15 @@
+{
+  "parent": "superiorsmithing:custom/forged_shield",
+  "textures": {
+    "1": "superiorsmithing:block/forged_shield",
+    "particle": "superiorsmithing:item/shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "superiorsmithing:item/forged_shield_0"
+    }
+  ]
+}

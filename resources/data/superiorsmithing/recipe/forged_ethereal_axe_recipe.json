@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "superiorsmithing:ethereal_axe"
+  },
+  "addition": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "result": {
+    "id": "superiorsmithing:forged_ethereal_axe"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "superiorsmithing:ethereal_shovel"
+  },
+  "addition": {
+    "item": "minecraft:phantom_membrane"
+  },
+  "result": {
+    "id": "superiorsmithing:phased_ethereal_shovel"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:bound_diamond_shovel",
+    "superiorsmithing:reinforced_diamond_shovel",
+    "superiorsmithing:riveted_diamond_shovel",
+    "superiorsmithing:gilded_diamond_shovel",
+    "superiorsmithing:jeweled_diamond_shovel",
+    "superiorsmithing:forged_diamond_shovel",
+    "superiorsmithing:red_diamond_shovel",
+    "superiorsmithing:orange_diamond_shovel",
+    "superiorsmithing:yellow_diamond_shovel",
+    "superiorsmithing:lime_diamond_shovel",
+    "superiorsmithing:green_diamond_shovel",
+    "superiorsmithing:light_blue_diamond_shovel",
+    "superiorsmithing:cyan_diamond_shovel",
+    "superiorsmithing:blue_diamond_shovel",
+    "superiorsmithing:purple_diamond_shovel",
+    "superiorsmithing:magenta_diamond_shovel",
+    "superiorsmithing:pink_diamond_shovel",
+    "superiorsmithing:white_diamond_shovel",
+    "superiorsmithing:light_gray_diamond_shovel",
+    "superiorsmithing:gray_diamond_shovel",
+    "superiorsmithing:black_diamond_shovel",
+    "minecraft:diamond_shovel",
+    "superiorsmithing:conched_diamond_shovel",
+    "superiorsmithing:phased_diamond_shovel",
+    "superiorsmithing:uncharged_diamond_shovel",
+    "superiorsmithing:charged_diamond_shovel",
+    "superiorsmithing:mystic_diamond_shovel",
+    "superiorsmithing:shelled_diamond_shovel"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:shelled_diamond_armor_boots",
+    "superiorsmithing:shelled_chainmail_armor_boots",
+    "superiorsmithing:shelled_ethereal_armor_boots",
+    "superiorsmithing:shelled_golden_armor_boots",
+    "superiorsmithing:shelled_iron_armor_boots",
+    "superiorsmithing:shelled_leather_armor_boots",
+    "superiorsmithing:shelled_netherite_armor_boots"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobblestone"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "superiorsmithing:riveting_template"
+    }
+  },
+  "result": {
+    "id": "superiorsmithing:riveting_template_copy",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:echoing_leather_armor_leggings",
+    "superiorsmithing:echoing_iron_armor_leggings",
+    "superiorsmithing:echoing_chainmail_armor_leggings",
+    "superiorsmithing:echoing_golden_armor_leggings",
+    "superiorsmithing:echoing_diamond_armor_leggings",
+    "superiorsmithing:echoing_netherite_armor_leggings",
+    "superiorsmithing:echoing_ethereal_armor_leggings"
+  ]
+}

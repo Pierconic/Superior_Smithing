@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "superiorsmithing:ethereal_pickaxe"
+  },
+  "addition": {
+    "item": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "superiorsmithing:echoing_ethereal_pick"
+  }
+}

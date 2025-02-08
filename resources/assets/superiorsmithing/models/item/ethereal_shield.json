@@ -1,0 +1,15 @@
+{
+  "parent": "superiorsmithing:custom/ethereal_shield",
+  "textures": {
+    "1": "superiorsmithing:block/ethereal_shield",
+    "particle": "superiorsmithing:item/shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "superiorsmithing:item/ethereal_shield_0"
+    }
+  ]
+}

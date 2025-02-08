@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:ethereal_armor_helmet",
+    "superiorsmithing:ethereal_armor_chestplate",
+    "superiorsmithing:ethereal_armor_leggings",
+    "superiorsmithing:ethereal_armor_boots",
+    "superiorsmithing:ethereal_axe",
+    "superiorsmithing:ethereal_hoe",
+    "superiorsmithing:ethereal_pickaxe",
+    "superiorsmithing:ethereal_shovel",
+    "superiorsmithing:ethereal_sword"
+  ]
+}

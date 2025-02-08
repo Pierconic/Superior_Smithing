@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ender_eye",
+    "minecraft:fermented_spider_eye",
+    "minecraft:suspicious_stew",
+    "minecraft:soul_torch",
+    "minecraft:blaze_powder",
+    "minecraft:wind_charge",
+    "minecraft:fire_charge"
+  ]
+}

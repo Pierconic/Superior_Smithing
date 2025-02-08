@@ -1,0 +1,15 @@
+{
+  "parent": "superiorsmithing:custom/jeweled_shield",
+  "textures": {
+    "1": "superiorsmithing:block/jeweled_shield",
+    "particle": "superiorsmithing:item/shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "superiorsmithing:item/jeweled_shield_0"
+    }
+  ]
+}

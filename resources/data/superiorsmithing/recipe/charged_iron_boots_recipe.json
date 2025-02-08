@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:iron_boots"
+  },
+  "addition": {
+    "item": "minecraft:redstone"
+  },
+  "result": {
+    "id": "superiorsmithing:charged_iron_armor_boots"
+  }
+}

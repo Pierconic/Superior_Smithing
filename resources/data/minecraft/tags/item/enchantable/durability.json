@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:mystic_template",
+    "superiorsmithing:ethereal_template",
+    "superiorsmithing:netherite_template",
+    "superiorsmithing:shelled_template",
+    "superiorsmithing:charged_template",
+    "superiorsmithing:echoing_template",
+    "superiorsmithing:phased_template",
+    "superiorsmithing:conching_template",
+    "superiorsmithing:forging_template",
+    "superiorsmithing:jewling_template",
+    "superiorsmithing:gilding_template",
+    "superiorsmithing:riveting_template",
+    "superiorsmithing:enforcing_template",
+    "superiorsmithing:binding_template"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_golden_armor_boots"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:light_blue_golden_armor_boots",
+    "count": 1
+  }
+}

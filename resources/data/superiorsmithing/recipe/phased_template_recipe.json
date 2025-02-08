@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:obsidian"
+    },
+    "b": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "superiorsmithing:phased_template"
+    }
+  },
+  "result": {
+    "id": "superiorsmithing:phased_template_copy",
+    "count": 1
+  }
+}

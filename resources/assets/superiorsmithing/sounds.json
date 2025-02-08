@@ -1,0 +1,160 @@
+{
+  "stonecrafting": {
+    "subtitle": "subtitles.stonecrafting",
+    "sounds": [
+      {
+        "name": "superiorsmithing:stonecraft1",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:stonecraft2",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:stonecraft3",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:stonecraft4",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:stonecraft5",
+        "stream": false
+      }
+    ]
+  },
+  "papercrafting": {
+    "subtitle": "subtitles.papercrafting",
+    "sounds": [
+      {
+        "name": "superiorsmithing:papercraft1",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:papercraft2",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:papercraft3",
+        "stream": false
+      }
+    ]
+  },
+  "metalcrafting": {
+    "subtitle": "subtitles.metalcrafting",
+    "sounds": [
+      {
+        "name": "superiorsmithing:metalcraft1",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:metalcraft2",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:metalcraft3",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:metalcraft4",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:metalcraft5",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:metalcraft6",
+        "stream": false
+      }
+    ]
+  },
+  "glasscrafting": {
+    "subtitle": "subtitles.glasscrafting",
+    "sounds": [
+      {
+        "name": "superiorsmithing:glasscraft1",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:glasscraft2",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:glasscraft3",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:glasscraft4",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:glasscraft5",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:glasscraft6",
+        "stream": false
+      }
+    ]
+  },
+  "woodcrafting": {
+    "subtitle": "subtitles.woodcrafting",
+    "sounds": [
+      {
+        "name": "superiorsmithing:woodcraft6",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:woodcraft5",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:woodcraft4",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:woodcraft3",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:woodcraft2",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:woodcraft1",
+        "stream": false
+      }
+    ]
+  },
+  "gemcrafting": {
+    "subtitle": "subtitles.gemcrafting",
+    "sounds": [
+      {
+        "name": "superiorsmithing:diamond.craft.6",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:diamond.craft.5",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:diamond.craft.4",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:diamond.craft.3",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:diamond.craft.2",
+        "stream": false
+      },
+      {
+        "name": "superiorsmithing:diamond.craft.1",
+        "stream": false
+      }
+    ]
+  }
+}

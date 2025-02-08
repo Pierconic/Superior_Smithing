@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "advancements.cant_take_it_with_you.title"
+    },
+    "description": {
+      "translate": "advancements.cant_take_it_with_you.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cant_take_it_with_you_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "superiorsmithing:modify_and_sever"
+}

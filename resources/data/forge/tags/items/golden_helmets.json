@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:bound_golden_armor_helmet",
+    "superiorsmithing:reinforced_golden_armor_helmet",
+    "superiorsmithing:riveted_golden_armor_helmet",
+    "superiorsmithing:gilded_golden_armor_helmet",
+    "superiorsmithing:jeweled_golden_armor_helmet",
+    "superiorsmithing:forged_golden_armor_helmet",
+    "superiorsmithing:red_golden_armor_helmet",
+    "superiorsmithing:orange_golden_armor_helmet",
+    "superiorsmithing:yellow_golden_armor_helmet",
+    "superiorsmithing:lime_golden_armor_helmet",
+    "superiorsmithing:light_blue_golden_armor_helmet",
+    "superiorsmithing:cyan_golden_armor_helmet",
+    "superiorsmithing:blue_golden_armor_helmet",
+    "superiorsmithing:purple_golden_armor_helmet",
+    "superiorsmithing:magenta_golden_armor_helmet",
+    "superiorsmithing:pink_golden_armor_helmet",
+    "superiorsmithing:white_golden_armor_helmet",
+    "superiorsmithing:light_gray_golden_armor_helmet",
+    "superiorsmithing:gray_golden_armor_helmet",
+    "superiorsmithing:black_golden_armor_helmet",
+    "superiorsmithing:green_golden_armor_helmet",
+    "superiorsmithing:echoing_golden_armor_helmet",
+    "minecraft:golden_helmet",
+    "superiorsmithing:conched_golden_armor_helmet",
+    "superiorsmithing:uncharged_golden_armor_helmet",
+    "superiorsmithing:charged_golden_armor_helmet",
+    "superiorsmithing:mystic_golden_armor_helmet",
+    "superiorsmithing:shelled_golden_armor_helmet"
+  ]
+}

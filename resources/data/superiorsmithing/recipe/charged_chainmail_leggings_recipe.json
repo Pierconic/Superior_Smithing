@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:chainmail_leggings"
+  },
+  "addition": {
+    "item": "minecraft:redstone"
+  },
+  "result": {
+    "id": "superiorsmithing:charged_chainmail_armor_leggings"
+  }
+}

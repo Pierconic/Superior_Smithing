@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_diamond_axe"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:light_blue_diamond_axe",
+    "count": 1
+  }
+}

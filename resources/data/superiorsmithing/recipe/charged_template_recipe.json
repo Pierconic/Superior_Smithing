@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stone"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "superiorsmithing:charged_template"
+    }
+  },
+  "result": {
+    "id": "superiorsmithing:charged_template_copy",
+    "count": 1
+  }
+}

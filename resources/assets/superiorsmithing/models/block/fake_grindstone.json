@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "superiorsmithing:block/ethereal_shield",
+    "up": "superiorsmithing:block/ethereal_shield",
+    "north": "superiorsmithing:block/ethereal_shield",
+    "east": "superiorsmithing:block/ethereal_shield",
+    "south": "superiorsmithing:block/ethereal_shield",
+    "west": "superiorsmithing:block/ethereal_shield",
+    "particle": "superiorsmithing:block/ethereal_shield"
+  },
+  "render_type": "solid"
+}

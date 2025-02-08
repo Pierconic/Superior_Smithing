@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cut_sandstone"
+    },
+    "b": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "superiorsmithing:mystic_template"
+    }
+  },
+  "result": {
+    "id": "superiorsmithing:mystic_template_copy",
+    "count": 1
+  }
+}

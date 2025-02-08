@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_diamond_armor_helmet"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:yellow_diamond_armor_helmet",
+    "count": 1
+  }
+}

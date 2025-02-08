@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "superiorsmithing:ethereal_armor_leggings"
+  },
+  "addition": {
+    "item": "minecraft:phantom_membrane"
+  },
+  "result": {
+    "id": "superiorsmithing:phased_ethereal_armor_leggings"
+  }
+}

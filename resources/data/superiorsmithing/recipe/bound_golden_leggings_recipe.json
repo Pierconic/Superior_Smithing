@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:golden_leggings"
+  },
+  "addition": {
+    "item": "minecraft:leather"
+  },
+  "result": {
+    "id": "superiorsmithing:bound_golden_armor_leggings"
+  }
+}

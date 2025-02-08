@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bookshelf",
+    "minecraft:book",
+    "minecraft:writable_book",
+    "minecraft:written_book",
+    "minecraft:map",
+    "minecraft:filled_map",
+    "minecraft:paper",
+    "minecraft:painting",
+    "minecraft:cartography_table",
+    "minecraft:tnt",
+    "minecraft:firework_rocket",
+    "minecraft:dried_kelp_block",
+    "minecraft:lectern"
+  ]
+}

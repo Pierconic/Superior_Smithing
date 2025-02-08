@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cut_copper"
+    },
+    "b": {
+      "item": "minecraft:copper_ingot"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "superiorsmithing:enforcing_template"
+    }
+  },
+  "result": {
+    "id": "superiorsmithing:enforcing_template_copy",
+    "count": 1
+  }
+}

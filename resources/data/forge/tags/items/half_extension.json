@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:reinforced_iron_axe",
+    "superiorsmithing:reinforced_golden_axe",
+    "superiorsmithing:reinforced_diamond_axe",
+    "superiorsmithing:reinforced_netherite_axe",
+    "superiorsmithing:reinforced_iron_hoe",
+    "superiorsmithing:reinforced_golden_hoe",
+    "superiorsmithing:reinforced_diamond_hoe",
+    "superiorsmithing:reinforced_netherite_hoe",
+    "superiorsmithing:reinforced_iron_pickaxe",
+    "superiorsmithing:reinforced_golden_pickaxe",
+    "superiorsmithing:reinforced_diamond_pickaxe",
+    "superiorsmithing:reinforced_netherite_pickaxe",
+    "superiorsmithing:reinforced_iron_shovel",
+    "superiorsmithing:reinforced_golden_shovel",
+    "superiorsmithing:reinforced_diamond_shovel",
+    "superiorsmithing:reinforced_netherite_shovel",
+    "superiorsmithing:reinforced_iron_sword",
+    "superiorsmithing:reinforced_golden_sword",
+    "superiorsmithing:reinforced_diamond_sword",
+    "superiorsmithing:reinforced_netherite_sword",
+    "superiorsmithing:reinforced_ethereal_axe",
+    "superiorsmithing:reinforced_ethereal_hoe",
+    "superiorsmithing:reinforced_ethereal_pickaxe",
+    "superiorsmithing:reinforced_ethereal_shovel",
+    "superiorsmithing:reinforced_ethereal_sword"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_netherite_sword"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:orange_netherite_sword",
+    "count": 1
+  }
+}

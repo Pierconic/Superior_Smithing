@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:arrow",
+    "minecraft:spectral_arrow",
+    "minecraft:tipped_arrow",
+    "minecraft:stone_sword",
+    "minecraft:stone_shovel",
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_axe",
+    "minecraft:stone_hoe"
+  ]
+}

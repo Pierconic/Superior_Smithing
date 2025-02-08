@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_netherite_armor_chestplate"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:green_netherite_armor_chestplate",
+    "count": 1
+  }
+}

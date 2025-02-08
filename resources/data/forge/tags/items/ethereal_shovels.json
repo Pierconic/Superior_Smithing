@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:ethereal_shovel",
+    "superiorsmithing:reinforced_ethereal_shovel",
+    "superiorsmithing:riveted_ethereal_shovel",
+    "superiorsmithing:gilded_ethereal_shovel",
+    "superiorsmithing:forged_ethereal_shovel",
+    "superiorsmithing:conched_ethereal_shovel",
+    "superiorsmithing:phased_ethereal_shovel",
+    "superiorsmithing:echoing_ethereal_shovel",
+    "superiorsmithing:jeweled_ethereal_shovel",
+    "superiorsmithing:uncharged_ethereal_shovel",
+    "superiorsmithing:charged_ethereal_shovel",
+    "superiorsmithing:mystic_ethereal_shovel",
+    "superiorsmithing:shelled_ethereal_shovel"
+  ]
+}

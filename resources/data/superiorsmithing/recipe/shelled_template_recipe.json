@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:purpur_block"
+    },
+    "b": {
+      "item": "minecraft:shulker_shell"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "superiorsmithing:shelled_template"
+    }
+  },
+  "result": {
+    "id": "superiorsmithing:shelled_template_copy",
+    "count": 1
+  }
+}

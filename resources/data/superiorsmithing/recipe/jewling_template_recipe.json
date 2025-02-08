@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bbb",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "superiorsmithing:jewling_template"
+    }
+  },
+  "result": {
+    "id": "superiorsmithing:jewling_template_copy",
+    "count": 1
+  }
+}

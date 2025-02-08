@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:ethereal_armor_helmet",
+    "superiorsmithing:reinforced_ethereal_armor_helmet",
+    "superiorsmithing:riveted_ethereal_armor_helmet",
+    "superiorsmithing:gilded_ethereal_armor_helmet",
+    "superiorsmithing:jeweled_ethereal_armor_helmet",
+    "superiorsmithing:forged_ethereal_armor_helmet",
+    "superiorsmithing:conched_ethereal_armor_helmet",
+    "superiorsmithing:phased_ethereal_armor_helmet",
+    "superiorsmithing:echoing_ethereal_armor_helmet",
+    "superiorsmithing:uncharged_ethereal_armor_helmet",
+    "superiorsmithing:charged_ethereal_armor_helmet",
+    "superiorsmithing:mystic_ethereal_armor_helmet",
+    "superiorsmithing:shelled_ethereal_armor_helmet"
+  ]
+}

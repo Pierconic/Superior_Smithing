@@ -1,0 +1,7 @@
+{
+  "parent": "superiorsmithing:custom/gilded_shield_up",
+  "textures": {
+    "1": "superiorsmithing:block/gilded_shield",
+    "particle": "superiorsmithing:item/shield"
+  }
+}

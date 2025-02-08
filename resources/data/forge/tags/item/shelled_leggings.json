@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:shelled_diamond_armor_leggings",
+    "superiorsmithing:shelled_ethereal_armor_leggings",
+    "superiorsmithing:shelled_golden_armor_leggings",
+    "superiorsmithing:shelled_iron_armor_leggings",
+    "superiorsmithing:shelled_leather_armor_leggings",
+    "superiorsmithing:shelled_netherite_armor_leggings"
+  ]
+}

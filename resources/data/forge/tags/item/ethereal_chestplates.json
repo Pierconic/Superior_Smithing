@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:reinforced_ethereal_armor_chestplate",
+    "superiorsmithing:riveted_ethereal_armor_chestplate",
+    "superiorsmithing:gilded_ethereal_armor_chestplate",
+    "superiorsmithing:jeweled_ethereal_armor_chestplate",
+    "superiorsmithing:forged_ethereal_armor_chestplate",
+    "superiorsmithing:conched_ethereal_armor_chestplate",
+    "superiorsmithing:phased_ethereal_armor_chestplate",
+    "superiorsmithing:echoing_ethereal_armor_chestplate",
+    "superiorsmithing:ethereal_armor_chestplate",
+    "superiorsmithing:uncharged_ethereal_armor_chestplate",
+    "superiorsmithing:charged_ethereal_armor_chestplate",
+    "superiorsmithing:mystic_ethereal_armor_chestplate",
+    "superiorsmithing:shelled_ethereal_armor_chestplate"
+  ]
+}

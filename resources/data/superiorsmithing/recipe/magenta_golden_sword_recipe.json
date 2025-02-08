@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_golden_sword"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:magenta_golden_sword",
+    "count": 1
+  }
+}

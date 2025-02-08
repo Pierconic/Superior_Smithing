@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_leather_armor_helmet"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:cyan_leather_armor_helmet",
+    "count": 1
+  }
+}

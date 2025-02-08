@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_netherite_armor_helmet"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:purple_netherite_armor_helmet",
+    "count": 1
+  }
+}

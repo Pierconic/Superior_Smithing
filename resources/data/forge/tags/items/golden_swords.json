@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:bound_golden_sword",
+    "superiorsmithing:reinforced_golden_sword",
+    "superiorsmithing:riveted_golden_sword",
+    "superiorsmithing:gilded_golden_sword",
+    "superiorsmithing:jeweled_golden_sword",
+    "superiorsmithing:forged_golden_sword",
+    "superiorsmithing:red_golden_sword",
+    "superiorsmithing:orange_golden_sword",
+    "superiorsmithing:yellow_golden_sword",
+    "superiorsmithing:lime_golden_sword",
+    "superiorsmithing:green_golden_sword",
+    "superiorsmithing:light_blue_golden_sword",
+    "superiorsmithing:cyan_golden_sword",
+    "superiorsmithing:blue_golden_sword",
+    "superiorsmithing:purple_golden_sword",
+    "superiorsmithing:magenta_golden_sword",
+    "superiorsmithing:pink_golden_sword",
+    "superiorsmithing:white_golden_sword",
+    "superiorsmithing:light_gray_golden_sword",
+    "superiorsmithing:gray_golden_sword",
+    "superiorsmithing:black_golden_sword",
+    "superiorsmithing:echoing_golden_sword",
+    "minecraft:golden_sword",
+    "superiorsmithing:phased_golden_sword",
+    "superiorsmithing:uncharged_golden_sword",
+    "superiorsmithing:charged_golden_sword",
+    "superiorsmithing:mystic_golden_sword",
+    "superiorsmithing:shelled_golden_sword"
+  ]
+}

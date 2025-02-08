@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_chainmail_armor_leggings"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:purple_chainmail_armor_leggings",
+    "count": 1
+  }
+}

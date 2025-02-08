@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:reinforced_ethereal_armor_leggings",
+    "superiorsmithing:riveted_ethereal_armor_leggings",
+    "superiorsmithing:gilded_ethereal_armor_leggings",
+    "superiorsmithing:jeweled_ethereal_armor_leggings",
+    "superiorsmithing:forged_ethereal_armor_leggings",
+    "superiorsmithing:conched_ethereal_armor_leggings",
+    "superiorsmithing:phased_ethereal_armor_leggings",
+    "superiorsmithing:echoing_ethereal_armor_leggings",
+    "superiorsmithing:ethereal_armor_leggings",
+    "superiorsmithing:uncharged_ethereal_armor_leggings",
+    "superiorsmithing:charged_ethereal_armor_leggings",
+    "superiorsmithing:mystic_ethereal_armor_leggings",
+    "superiorsmithing:shelled_ethereal_armor_leggings"
+  ]
+}

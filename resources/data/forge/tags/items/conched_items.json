@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:conched_leather_armor_helmet",
+    "superiorsmithing:conched_leather_armor_chestplate",
+    "superiorsmithing:conched_leather_armor_leggings",
+    "superiorsmithing:conched_leather_armor_boots",
+    "superiorsmithing:conched_chainmail_armor_helmet",
+    "superiorsmithing:conched_chainmail_armor_chestplate",
+    "superiorsmithing:conched_chainmail_armor_leggings",
+    "superiorsmithing:conched_chainmail_armor_boots",
+    "superiorsmithing:conched_iron_armor_helmet",
+    "superiorsmithing:conched_iron_armor_chestplate",
+    "superiorsmithing:conched_iron_armor_leggings",
+    "superiorsmithing:conched_iron_armor_boots",
+    "superiorsmithing:conched_golden_armor_helmet",
+    "superiorsmithing:conched_golden_armor_chestplate",
+    "superiorsmithing:conched_golden_armor_leggings",
+    "superiorsmithing:conched_golden_armor_boots",
+    "superiorsmithing:conched_diamond_armor_helmet",
+    "superiorsmithing:conched_diamond_armor_chestplate",
+    "superiorsmithing:conched_diamond_armor_leggings",
+    "superiorsmithing:conched_diamond_armor_boots",
+    "superiorsmithing:conched_netherite_armor_helmet",
+    "superiorsmithing:conched_netherite_armor_chestplate",
+    "superiorsmithing:conched_netherite_armor_leggings",
+    "superiorsmithing:conched_netherite_armor_boots",
+    "superiorsmithing:conched_ethereal_armor_helmet",
+    "superiorsmithing:conched_ethereal_armor_chestplate",
+    "superiorsmithing:conched_ethereal_armor_leggings",
+    "superiorsmithing:conched_ethereal_armor_boots"
+  ]
+}

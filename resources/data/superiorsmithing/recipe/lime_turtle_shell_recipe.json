@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_turtle_shell_helmet"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:lime_turtle_shell_helmet",
+    "count": 1
+  }
+}

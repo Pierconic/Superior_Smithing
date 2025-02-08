@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:ethereal_axe",
+    "superiorsmithing:reinforced_ethereal_axe",
+    "superiorsmithing:riveted_ethereal_axe",
+    "superiorsmithing:gilded_ethereal_axe",
+    "superiorsmithing:jeweled_ethereal_axe",
+    "superiorsmithing:forged_ethereal_axe",
+    "superiorsmithing:conched_ethereal_axe",
+    "superiorsmithing:echoing_ethereal_axe",
+    "superiorsmithing:phased_ethereal_axe",
+    "superiorsmithing:uncharged_ethereal_axe",
+    "superiorsmithing:charged_ethereal_axe",
+    "superiorsmithing:mystic_ethereal_axe",
+    "superiorsmithing:shelled_ethereal_axe"
+  ]
+}

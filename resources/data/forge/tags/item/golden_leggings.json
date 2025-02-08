@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:bound_golden_armor_leggings",
+    "superiorsmithing:reinforced_golden_armor_leggings",
+    "superiorsmithing:riveted_golden_armor_leggings",
+    "superiorsmithing:gilded_golden_armor_leggings",
+    "superiorsmithing:jeweled_golden_armor_leggings",
+    "superiorsmithing:forged_golden_armor_leggings",
+    "superiorsmithing:red_golden_armor_leggings",
+    "superiorsmithing:orange_golden_armor_leggings",
+    "superiorsmithing:yellow_golden_armor_leggings",
+    "superiorsmithing:lime_golden_armor_leggings",
+    "superiorsmithing:light_blue_golden_armor_leggings",
+    "superiorsmithing:cyan_golden_armor_leggings",
+    "superiorsmithing:blue_golden_armor_leggings",
+    "superiorsmithing:purple_golden_armor_leggings",
+    "superiorsmithing:magenta_golden_armor_leggings",
+    "superiorsmithing:pink_golden_armor_leggings",
+    "superiorsmithing:white_golden_armor_leggings",
+    "superiorsmithing:light_gray_golden_armor_leggings",
+    "superiorsmithing:gray_golden_armor_leggings",
+    "superiorsmithing:black_golden_armor_leggings",
+    "superiorsmithing:green_golden_armor_leggings",
+    "superiorsmithing:echoing_golden_armor_leggings",
+    "minecraft:golden_leggings",
+    "superiorsmithing:conched_golden_armor_leggings",
+    "superiorsmithing:uncharged_golden_armor_leggings",
+    "superiorsmithing:charged_golden_armor_leggings",
+    "superiorsmithing:mystic_golden_armor_leggings",
+    "superiorsmithing:shelled_golden_armor_leggings"
+  ]
+}

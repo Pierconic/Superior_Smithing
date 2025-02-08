@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:echoing_leather_armor_boots",
+    "superiorsmithing:echoing_iron_armor_boots",
+    "superiorsmithing:echoing_chainmail_armor_boots",
+    "superiorsmithing:echoing_golden_armor_boots",
+    "superiorsmithing:echoing_diamond_armor_boots",
+    "superiorsmithing:echoing_netherite_armor_boots",
+    "superiorsmithing:echoing_ethereal_armor_boots"
+  ]
+}

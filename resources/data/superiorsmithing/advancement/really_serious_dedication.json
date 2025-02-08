@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "superiorsmithing:ethereal_hoe"
+    },
+    "title": {
+      "translate": "advancements.really_serious_dedication.title"
+    },
+    "description": {
+      "translate": "advancements.really_serious_dedication.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "really_serious_dedication_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "superiorsmithing:ethereal_hoe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:husbandry/obtain_netherite_hoe"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:nether_bricks"
+    },
+    "b": {
+      "item": "minecraft:fire_charge"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "superiorsmithing:netherite_template"
+    }
+  },
+  "result": {
+    "id": "superiorsmithing:netherite_template_copy",
+    "count": 1
+  }
+}

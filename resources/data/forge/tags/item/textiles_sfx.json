@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:book",
+    "minecraft:writable_book",
+    "minecraft:written_book",
+    "minecraft:map",
+    "minecraft:filled_map",
+    "minecraft:paper",
+    "minecraft:painting",
+    "minecraft:firework_rocket"
+  ]
+}

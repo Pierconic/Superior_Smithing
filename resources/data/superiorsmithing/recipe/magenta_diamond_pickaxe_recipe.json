@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_diamond_pickaxe"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:magenta_diamond_pickaxe",
+    "count": 1
+  }
+}

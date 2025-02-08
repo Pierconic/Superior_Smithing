@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "superiorsmithing:pink_netherite_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.laundry_day.title"
+    },
+    "description": {
+      "translate": "advancements.laundry_day.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "laundry_day_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "superiorsmithing:modify_and_sever"
+}

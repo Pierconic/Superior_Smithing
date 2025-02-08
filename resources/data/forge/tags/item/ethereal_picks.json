@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:ethereal_pickaxe",
+    "superiorsmithing:reinforced_ethereal_pickaxe",
+    "superiorsmithing:riveted_ethereal_pickaxe",
+    "superiorsmithing:gilded_ethereal_pickaxe",
+    "superiorsmithing:jeweled_ethereal_pickaxe",
+    "superiorsmithing:forged_ethereal_pickaxe",
+    "superiorsmithing:conched_ethereal_pickaxe",
+    "superiorsmithing:phased_ethereal_pickaxe",
+    "superiorsmithing:echoing_ethereal_pick",
+    "superiorsmithing:uncharged_ethereal_pickaxe",
+    "superiorsmithing:charged_ethereal_pickaxe",
+    "superiorsmithing:mystic_ethereal_pickaxe",
+    "superiorsmithing:shelled_ethereal_pickaxe"
+  ]
+}

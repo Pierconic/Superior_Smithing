@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:deepslate_tiles"
+    },
+    "b": {
+      "item": "minecraft:echo_shard"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "superiorsmithing:echoing_template"
+    }
+  },
+  "result": {
+    "id": "superiorsmithing:echoing_template_copy",
+    "count": 1
+  }
+}

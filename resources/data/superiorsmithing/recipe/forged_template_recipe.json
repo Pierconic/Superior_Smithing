@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_templates",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:magma_block"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "superiorsmithing:forging_template"
+    }
+  },
+  "result": {
+    "id": "superiorsmithing:forging_template_copy",
+    "count": 1
+  }
+}

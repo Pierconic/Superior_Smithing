@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:diamond",
+    "minecraft:netherite_scrap",
+    "minecraft:nautilus_shell",
+    "minecraft:phantom_membrane",
+    "minecraft:echo_shard",
+    "minecraft:leather",
+    "minecraft:netherite_ingot",
+    "minecraft:lapis_lazuli",
+    "minecraft:redstone",
+    "minecraft:shulker_shell",
+    "minecraft:nether_star"
+  ]
+}

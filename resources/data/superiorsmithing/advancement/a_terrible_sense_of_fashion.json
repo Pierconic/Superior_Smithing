@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "superiorsmithing:forged_leather_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.a_terrible_sense_of_fashion.title"
+    },
+    "description": {
+      "translate": "advancements.a_terrible_sense_of_fashion.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_terrible_sense_of_fashion_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "superiorsmithing:laundry_day"
+}

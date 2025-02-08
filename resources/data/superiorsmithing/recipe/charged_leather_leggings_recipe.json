@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:leather_leggings"
+  },
+  "addition": {
+    "item": "minecraft:redstone"
+  },
+  "result": {
+    "id": "superiorsmithing:charged_leather_armor_leggings"
+  }
+}

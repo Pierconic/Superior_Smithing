@@ -1,0 +1,7 @@
+{
+  "parent": "superiorsmithing:custom/forged_shield_up",
+  "textures": {
+    "1": "superiorsmithing:block/forged_shield",
+    "particle": "superiorsmithing:item/shield"
+  }
+}

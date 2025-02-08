@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "superiorsmithing:ethereal_pickaxe"
+  },
+  "addition": {
+    "item": "minecraft:nautilus_shell"
+  },
+  "result": {
+    "id": "superiorsmithing:conched_ethereal_pickaxe"
+  }
+}

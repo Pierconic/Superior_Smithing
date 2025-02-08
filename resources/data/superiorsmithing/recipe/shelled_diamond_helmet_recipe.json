@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "addition": {
+    "item": "minecraft:shulker_shell"
+  },
+  "result": {
+    "id": "superiorsmithing:shelled_diamond_armor_helmet"
+  }
+}

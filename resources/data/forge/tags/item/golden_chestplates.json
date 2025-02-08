@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:bound_golden_armor_chestplate",
+    "superiorsmithing:reinforced_golden_armor_chestplate",
+    "superiorsmithing:riveted_golden_armor_chestplate",
+    "superiorsmithing:gilded_golden_armor_chestplate",
+    "superiorsmithing:jeweled_golden_armor_chestplate",
+    "superiorsmithing:forged_golden_armor_chestplate",
+    "superiorsmithing:red_golden_armor_chestplate",
+    "superiorsmithing:orange_golden_armor_chestplate",
+    "superiorsmithing:yellow_golden_armor_chestplate",
+    "superiorsmithing:lime_golden_armor_chestplate",
+    "superiorsmithing:light_blue_golden_armor_chestplate",
+    "superiorsmithing:cyan_golden_armor_chestplate",
+    "superiorsmithing:blue_golden_armor_chestplate",
+    "superiorsmithing:purple_golden_armor_chestplate",
+    "superiorsmithing:magenta_golden_armor_chestplate",
+    "superiorsmithing:pink_golden_armor_chestplate",
+    "superiorsmithing:white_golden_armor_chestplate",
+    "superiorsmithing:light_gray_golden_armor_chestplate",
+    "superiorsmithing:gray_golden_armor_chestplate",
+    "superiorsmithing:black_golden_armor_chestplate",
+    "superiorsmithing:green_golden_armor_chestplate",
+    "superiorsmithing:echoing_golden_armor_chestplate",
+    "minecraft:golden_chestplate",
+    "superiorsmithing:conched_golden_armor_chestplate",
+    "superiorsmithing:uncharged_golden_armor_chestplate",
+    "superiorsmithing:charged_golden_armor_chestplate",
+    "superiorsmithing:mystic_golden_armor_chestplate",
+    "superiorsmithing:shelled_golden_armor_chestplate"
+  ]
+}

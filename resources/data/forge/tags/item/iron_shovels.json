@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:bound_iron_shovel",
+    "superiorsmithing:reinforced_iron_shovel",
+    "superiorsmithing:riveted_iron_shovel",
+    "superiorsmithing:gilded_iron_shovel",
+    "superiorsmithing:jeweled_iron_shovel",
+    "superiorsmithing:forged_iron_shovel",
+    "superiorsmithing:red_iron_shovel",
+    "superiorsmithing:orange_iron_shovel",
+    "superiorsmithing:yellow_iron_shovel",
+    "superiorsmithing:lime_iron_shovel",
+    "superiorsmithing:green_iron_shovel",
+    "superiorsmithing:light_blue_iron_shovel",
+    "superiorsmithing:cyan_iron_shovel",
+    "superiorsmithing:blue_iron_shovel",
+    "superiorsmithing:purple_iron_shovel",
+    "superiorsmithing:magenta_iron_shovel",
+    "superiorsmithing:pink_iron_shovel",
+    "superiorsmithing:white_iron_shovel",
+    "superiorsmithing:light_gray_iron_shovel",
+    "superiorsmithing:gray_iron_shovel",
+    "superiorsmithing:black_iron_shovel",
+    "superiorsmithing:echoing_iron_shovel",
+    "minecraft:iron_shovel",
+    "superiorsmithing:conched_iron_shovel",
+    "superiorsmithing:uncharged_iron_shovel",
+    "superiorsmithing:charged_iron_shovel",
+    "superiorsmithing:mystic_iron_shovel",
+    "superiorsmithing:shelled_iron_shovel"
+  ]
+}

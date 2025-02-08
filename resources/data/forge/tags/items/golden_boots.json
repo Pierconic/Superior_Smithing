@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:bound_golden_armor_boots",
+    "superiorsmithing:reinforced_golden_armor_boots",
+    "superiorsmithing:riveted_golden_armor_boots",
+    "superiorsmithing:gilded_golden_armor_boots",
+    "superiorsmithing:jeweled_golden_armor_boots",
+    "superiorsmithing:forged_golden_armor_boots",
+    "superiorsmithing:red_golden_armor_boots",
+    "superiorsmithing:orange_golden_armor_boots",
+    "superiorsmithing:yellow_golden_armor_boots",
+    "superiorsmithing:lime_golden_armor_boots",
+    "superiorsmithing:light_blue_golden_armor_boots",
+    "superiorsmithing:cyan_golden_armor_boots",
+    "superiorsmithing:blue_golden_armor_boots",
+    "superiorsmithing:purple_golden_armor_boots",
+    "superiorsmithing:magenta_golden_armor_boots",
+    "superiorsmithing:pink_golden_armor_boots",
+    "superiorsmithing:white_golden_armor_boots",
+    "superiorsmithing:light_gray_golden_armor_boots",
+    "superiorsmithing:gray_golden_armor_boots",
+    "superiorsmithing:black_golden_armor_boots",
+    "superiorsmithing:green_golden_armor_boots",
+    "superiorsmithing:echoing_golden_armor_boots",
+    "minecraft:golden_boots",
+    "superiorsmithing:conched_golden_armor_boots",
+    "superiorsmithing:uncharged_golden_armor_boots",
+    "superiorsmithing:charged_golden_armor_boots",
+    "superiorsmithing:mystic_golden_armor_boots",
+    "superiorsmithing:shelled_golden_armor_boots"
+  ]
+}

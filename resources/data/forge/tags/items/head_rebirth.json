@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "superiorsmithing:echoing_leather_armor_helmet",
+    "superiorsmithing:echoing_iron_armor_helmet",
+    "superiorsmithing:echoing_chainmail_armor_helmet",
+    "superiorsmithing:echoing_golden_armor_helmet",
+    "superiorsmithing:echoing_diamond_armor_helmet",
+    "superiorsmithing:echoing_netherite_armor_helmet",
+    "superiorsmithing:echoing_turtle_shell_helmet",
+    "superiorsmithing:echoing_ethereal_armor_helmet"
+  ]
+}

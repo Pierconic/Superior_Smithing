@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_netherite_shovel"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:blue_netherite_shovel",
+    "count": 1
+  }
+}

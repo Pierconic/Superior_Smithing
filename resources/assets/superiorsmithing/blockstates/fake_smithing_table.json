@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "superiorsmithing:block/fake_smithing_table"
+    }
+  }
+}

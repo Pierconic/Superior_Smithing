@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_leather_armor_chestplate"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:blue_leather_armor_chestplate",
+    "count": 1
+  }
+}

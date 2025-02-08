@@ -1,0 +1,29 @@
+{
+  "description": {
+    "translate": "enchantment.superiorsmithing.throwback"
+  },
+  "supported_items": [
+    "superiorsmithing:reinforced_shield",
+    "minecraft:shield",
+    "superiorsmithing:riveted_shield",
+    "superiorsmithing:gilded_shield",
+    "superiorsmithing:jeweled_shield",
+    "superiorsmithing:forged_shield",
+    "superiorsmithing:ethereal_shield"
+  ],
+  "weight": 5,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": []
+}

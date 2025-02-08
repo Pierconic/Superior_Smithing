@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "superiorsmithing:bound_golden_armor_leggings"
+    }
+  ],
+  "result": {
+    "id": "superiorsmithing:light_gray_golden_armor_leggings",
+    "count": 1
+  }
+}

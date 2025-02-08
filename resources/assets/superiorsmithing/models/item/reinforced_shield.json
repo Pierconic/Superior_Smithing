@@ -1,0 +1,15 @@
+{
+  "parent": "superiorsmithing:custom/reinforced_shield",
+  "textures": {
+    "1": "superiorsmithing:block/reinforced_shield",
+    "particle": "superiorsmithing:item/shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "superiorsmithing:item/reinforced_shield_0"
+    }
+  ]
+}
