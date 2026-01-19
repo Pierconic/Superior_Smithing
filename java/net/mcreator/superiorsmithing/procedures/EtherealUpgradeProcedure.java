@@ -27,64 +27,64 @@ public class EtherealUpgradeProcedure {
 		String ItemName = "";
 		ItemStack product = ItemStack.EMPTY;
 		ItemStack target = ItemStack.EMPTY;
-		target = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY);
+		target = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).copy();
 		if (target.getItem() == Items.SHIELD) {
-			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_SHIELD.get());
+			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_SHIELD.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.shield").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		}
 		if (target.getItem() == Items.NETHERITE_HELMET) {
-			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_ARMOR_HELMET.get());
+			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_ARMOR_HELMET.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_helmet").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.NETHERITE_CHESTPLATE) {
-			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_ARMOR_CHESTPLATE.get());
+			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_ARMOR_CHESTPLATE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_chestplate").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.NETHERITE_LEGGINGS) {
-			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_ARMOR_LEGGINGS.get());
+			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_ARMOR_LEGGINGS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_leggings").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.NETHERITE_BOOTS) {
-			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_ARMOR_BOOTS.get());
+			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_ARMOR_BOOTS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_boots").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.NETHERITE_SWORD) {
-			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_SWORD.get());
+			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_SWORD.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_sword").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.NETHERITE_SHOVEL) {
-			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_SHOVEL.get());
+			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_SHOVEL.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_shovel").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.NETHERITE_PICKAXE) {
-			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_PICKAXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_PICKAXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_pickaxe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.NETHERITE_AXE) {
-			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_AXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_AXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_axe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.NETHERITE_HOE) {
-			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_HOE.get());
+			product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_HOE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_hoe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));

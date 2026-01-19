@@ -51,7 +51,8 @@ public class GrindBackupProcedure {
 					.getItem() == (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getItem()
 					&& ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getDamageValue() >= 1
 							|| (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getDamageValue() >= 1)) {
-				grounditem = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(Mth.nextInt(RandomSource.create(), 0, 1))).getItem() : ItemStack.EMPTY);
+				grounditem = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(Mth.nextInt(RandomSource.create(), 0, 1))).getItem() : ItemStack.EMPTY)
+						.copy();
 				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 					((Slot) _slots.get(0)).set(ItemStack.EMPTY);
 					_player.containerMenu.broadcastChanges();
@@ -90,9 +91,9 @@ public class GrindBackupProcedure {
 					|| (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getCount() == 0
 							&& (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getCount() == 1) {
 				if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getCount() == 1) {
-					grounditem = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY);
+					grounditem = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).copy();
 				} else if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).getCount() == 1) {
-					grounditem = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY);
+					grounditem = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(1)).getItem() : ItemStack.EMPTY).copy();
 				}
 				damagelevel = grounditem.getDamageValue();
 				if (grounditem.isEnchanted()) {
@@ -265,111 +266,111 @@ public class GrindBackupProcedure {
 				if (!grounditem.isEnchanted()) {
 					if (grounditem.getItem() instanceof SwordItem) {
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_swords")))) {
-							product = new ItemStack(Items.DIAMOND_SWORD);
+							product = new ItemStack(Items.DIAMOND_SWORD).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_swords")))) {
-							product = new ItemStack(Items.GOLDEN_SWORD);
+							product = new ItemStack(Items.GOLDEN_SWORD).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_swords")))) {
-							product = new ItemStack(Items.IRON_SWORD);
+							product = new ItemStack(Items.IRON_SWORD).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_swords")))) {
-							product = new ItemStack(Items.NETHERITE_SWORD);
+							product = new ItemStack(Items.NETHERITE_SWORD).copy();
 						}
 					} else if (grounditem.getItem() instanceof PickaxeItem) {
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_picks")))) {
-							product = new ItemStack(Items.DIAMOND_PICKAXE);
+							product = new ItemStack(Items.DIAMOND_PICKAXE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_picks")))) {
-							product = new ItemStack(Items.GOLDEN_PICKAXE);
+							product = new ItemStack(Items.GOLDEN_PICKAXE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_picks")))) {
-							product = new ItemStack(Items.IRON_PICKAXE);
+							product = new ItemStack(Items.IRON_PICKAXE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_picks")))) {
-							product = new ItemStack(Items.NETHERITE_PICKAXE);
+							product = new ItemStack(Items.NETHERITE_PICKAXE).copy();
 						}
 					} else if (grounditem.getItem() instanceof AxeItem) {
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_axes")))) {
-							product = new ItemStack(Items.DIAMOND_AXE);
+							product = new ItemStack(Items.DIAMOND_AXE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_axes")))) {
-							product = new ItemStack(Items.GOLDEN_AXE);
+							product = new ItemStack(Items.GOLDEN_AXE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_axes")))) {
-							product = new ItemStack(Items.IRON_AXE);
+							product = new ItemStack(Items.IRON_AXE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_axes")))) {
-							product = new ItemStack(Items.NETHERITE_AXE);
+							product = new ItemStack(Items.NETHERITE_AXE).copy();
 						}
 					} else if (grounditem.getItem() instanceof ShovelItem) {
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_shovels")))) {
-							product = new ItemStack(Items.DIAMOND_SHOVEL);
+							product = new ItemStack(Items.DIAMOND_SHOVEL).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_shovels")))) {
-							product = new ItemStack(Items.GOLDEN_SHOVEL);
+							product = new ItemStack(Items.GOLDEN_SHOVEL).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_shovels")))) {
-							product = new ItemStack(Items.IRON_SHOVEL);
+							product = new ItemStack(Items.IRON_SHOVEL).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_shovels")))) {
-							product = new ItemStack(Items.NETHERITE_SHOVEL);
+							product = new ItemStack(Items.NETHERITE_SHOVEL).copy();
 						}
 					} else if (grounditem.getItem() instanceof HoeItem) {
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_hoes")))) {
-							product = new ItemStack(Items.DIAMOND_HOE);
+							product = new ItemStack(Items.DIAMOND_HOE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_hoes")))) {
-							product = new ItemStack(Items.GOLDEN_HOE);
+							product = new ItemStack(Items.GOLDEN_HOE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_hoes")))) {
-							product = new ItemStack(Items.IRON_HOE);
+							product = new ItemStack(Items.IRON_HOE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_hoes")))) {
-							product = new ItemStack(Items.NETHERITE_HOE);
+							product = new ItemStack(Items.NETHERITE_HOE).copy();
 						}
 					} else {
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_helmets")))) {
-							product = new ItemStack(Items.DIAMOND_HELMET);
+							product = new ItemStack(Items.DIAMOND_HELMET).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_chestplates")))) {
-							product = new ItemStack(Items.DIAMOND_CHESTPLATE);
+							product = new ItemStack(Items.DIAMOND_CHESTPLATE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_leggings")))) {
-							product = new ItemStack(Items.DIAMOND_LEGGINGS);
+							product = new ItemStack(Items.DIAMOND_LEGGINGS).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_boots")))) {
-							product = new ItemStack(Items.DIAMOND_BOOTS);
+							product = new ItemStack(Items.DIAMOND_BOOTS).copy();
 						}
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_helmets")))) {
-							product = new ItemStack(Items.GOLDEN_HELMET);
+							product = new ItemStack(Items.GOLDEN_HELMET).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_chestplates")))) {
-							product = new ItemStack(Items.GOLDEN_CHESTPLATE);
+							product = new ItemStack(Items.GOLDEN_CHESTPLATE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_leggings")))) {
-							product = new ItemStack(Items.GOLDEN_LEGGINGS);
+							product = new ItemStack(Items.GOLDEN_LEGGINGS).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_boots")))) {
-							product = new ItemStack(Items.GOLDEN_BOOTS);
+							product = new ItemStack(Items.GOLDEN_BOOTS).copy();
 						}
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_helmets")))) {
-							product = new ItemStack(Items.IRON_HELMET);
+							product = new ItemStack(Items.IRON_HELMET).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_chestplates")))) {
-							product = new ItemStack(Items.IRON_CHESTPLATE);
+							product = new ItemStack(Items.IRON_CHESTPLATE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_leggings")))) {
-							product = new ItemStack(Items.IRON_LEGGINGS);
+							product = new ItemStack(Items.IRON_LEGGINGS).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_boots")))) {
-							product = new ItemStack(Items.IRON_BOOTS);
+							product = new ItemStack(Items.IRON_BOOTS).copy();
 						}
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_helmets")))) {
-							product = new ItemStack(Items.CHAINMAIL_HELMET);
+							product = new ItemStack(Items.CHAINMAIL_HELMET).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_chestplates")))) {
-							product = new ItemStack(Items.CHAINMAIL_CHESTPLATE);
+							product = new ItemStack(Items.CHAINMAIL_CHESTPLATE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_leggings")))) {
-							product = new ItemStack(Items.CHAINMAIL_LEGGINGS);
+							product = new ItemStack(Items.CHAINMAIL_LEGGINGS).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_boots")))) {
-							product = new ItemStack(Items.CHAINMAIL_BOOTS);
+							product = new ItemStack(Items.CHAINMAIL_BOOTS).copy();
 						}
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_helmets")))) {
-							product = new ItemStack(Items.NETHERITE_HELMET);
+							product = new ItemStack(Items.NETHERITE_HELMET).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_chestplates")))) {
-							product = new ItemStack(Items.NETHERITE_CHESTPLATE);
+							product = new ItemStack(Items.NETHERITE_CHESTPLATE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_leggings")))) {
-							product = new ItemStack(Items.NETHERITE_LEGGINGS);
+							product = new ItemStack(Items.NETHERITE_LEGGINGS).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_boots")))) {
-							product = new ItemStack(Items.NETHERITE_BOOTS);
+							product = new ItemStack(Items.NETHERITE_BOOTS).copy();
 						}
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:leather_helmets")))) {
-							product = new ItemStack(Items.LEATHER_HELMET);
+							product = new ItemStack(Items.LEATHER_HELMET).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:leather_chestplates")))) {
-							product = new ItemStack(Items.LEATHER_CHESTPLATE);
+							product = new ItemStack(Items.LEATHER_CHESTPLATE).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:leather_leggings")))) {
-							product = new ItemStack(Items.LEATHER_LEGGINGS);
+							product = new ItemStack(Items.LEATHER_LEGGINGS).copy();
 						} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:leather_boots")))) {
-							product = new ItemStack(Items.LEATHER_BOOTS);
+							product = new ItemStack(Items.LEATHER_BOOTS).copy();
 						}
 						if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:turtle_helmets")))) {
-							product = new ItemStack(Items.TURTLE_HELMET);
+							product = new ItemStack(Items.TURTLE_HELMET).copy();
 						}
 					}
 					if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {

@@ -52,9 +52,9 @@ public class ShelledCyclingProcedure {
 		double ItemNumber = 0;
 		if (!((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).isCorrectToolForDrops(blockstate))) {
 			found = false;
-			HandItem = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+			HandItem = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
 			ItemNumber = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount();
-			InventoryItem = new ItemStack(Blocks.AIR);
+			InventoryItem = new ItemStack(Blocks.AIR).copy();
 			if (blockstate.is(BlockTags.create(ResourceLocation.parse("minecraft:mineable/pickaxe"))) || blockstate.is(BlockTags.create(ResourceLocation.parse("minecraft:ores/iron")))
 					|| blockstate.is(BlockTags.create(ResourceLocation.parse("minecraft:glass"))) || blockstate.is(BlockTags.create(ResourceLocation.parse("minecraft:storage_blocks/amethyst"))) || false || false
 					|| blockstate.is(BlockTags.create(ResourceLocation.parse("minecraft:ice"))) || blockstate.is(BlockTags.create(ResourceLocation.parse("minecraft:anvil")))) {
@@ -96,7 +96,7 @@ public class ShelledCyclingProcedure {
 								}
 								return ItemStack.EMPTY;
 							}
-						}.getItemStack((int) SlotNumber, entity));
+						}.getItemStack((int) SlotNumber, entity)).copy();
 						if (entity.getCapability(Capabilities.ItemHandler.ENTITY, null) instanceof IItemHandlerModifiable _modHandler) {
 							ItemStack _setstack = HandItem.copy();
 							_setstack.setCount((int) ItemNumber);
@@ -139,7 +139,7 @@ public class ShelledCyclingProcedure {
 								}
 								return ItemStack.EMPTY;
 							}
-						}.getItemStack((int) SlotNumber, entity));
+						}.getItemStack((int) SlotNumber, entity)).copy();
 						if (entity.getCapability(Capabilities.ItemHandler.ENTITY, null) instanceof IItemHandlerModifiable _modHandler) {
 							ItemStack _setstack = HandItem.copy();
 							_setstack.setCount((int) ItemNumber);
@@ -182,7 +182,7 @@ public class ShelledCyclingProcedure {
 								}
 								return ItemStack.EMPTY;
 							}
-						}.getItemStack((int) SlotNumber, entity));
+						}.getItemStack((int) SlotNumber, entity)).copy();
 						if (entity.getCapability(Capabilities.ItemHandler.ENTITY, null) instanceof IItemHandlerModifiable _modHandler) {
 							ItemStack _setstack = HandItem.copy();
 							_setstack.setCount((int) ItemNumber);
@@ -225,7 +225,7 @@ public class ShelledCyclingProcedure {
 								}
 								return ItemStack.EMPTY;
 							}
-						}.getItemStack((int) SlotNumber, entity));
+						}.getItemStack((int) SlotNumber, entity)).copy();
 						if (entity.getCapability(Capabilities.ItemHandler.ENTITY, null) instanceof IItemHandlerModifiable _modHandler) {
 							ItemStack _setstack = HandItem.copy();
 							_setstack.setCount((int) ItemNumber);
@@ -268,7 +268,7 @@ public class ShelledCyclingProcedure {
 								}
 								return ItemStack.EMPTY;
 							}
-						}.getItemStack((int) SlotNumber, entity));
+						}.getItemStack((int) SlotNumber, entity)).copy();
 						if (entity.getCapability(Capabilities.ItemHandler.ENTITY, null) instanceof IItemHandlerModifiable _modHandler) {
 							ItemStack _setstack = HandItem.copy();
 							_setstack.setCount((int) ItemNumber);

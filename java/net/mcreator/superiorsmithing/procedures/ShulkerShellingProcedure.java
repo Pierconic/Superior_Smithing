@@ -27,334 +27,334 @@ public class ShulkerShellingProcedure {
 		String ItemName = "";
 		ItemStack product = ItemStack.EMPTY;
 		ItemStack target = ItemStack.EMPTY;
-		target = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY);
+		target = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).copy();
 		if (target.is(ItemTags.create(ResourceLocation.parse("forge:leather_helmets")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_LEATHER_ARMOR_HELMET.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_LEATHER_ARMOR_HELMET.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.leather_helmet").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:leather_chestplates")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_LEATHER_ARMOR_CHESTPLATE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_LEATHER_ARMOR_CHESTPLATE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.leather_chestplate").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:leather_leggings")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_LEATHER_ARMOR_LEGGINGS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_LEATHER_ARMOR_LEGGINGS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.leather_leggings").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:leather_boots")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_LEATHER_ARMOR_BOOTS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_LEATHER_ARMOR_BOOTS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.leather_boots").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		}
 		if (target.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_helmets")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_CHAINMAIL_ARMOR_HELMET.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_CHAINMAIL_ARMOR_HELMET.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.chainmail_helmet").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_chestplates")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_CHAINMAIL_ARMOR_CHESTPLATE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_CHAINMAIL_ARMOR_CHESTPLATE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.chainmail_chestplate").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_leggings")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_CHAINMAIL_ARMOR_LEGGINGS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_CHAINMAIL_ARMOR_LEGGINGS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.chainmail_leggings").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_boots")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_CHAINMAIL_ARMOR_BOOTS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_CHAINMAIL_ARMOR_BOOTS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.chainmail_boots").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		}
 		if (target.is(ItemTags.create(ResourceLocation.parse("forge:iron_helmets")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_ARMOR_HELMET.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_ARMOR_HELMET.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.iron_helmet").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:iron_chestplates")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_ARMOR_CHESTPLATE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_ARMOR_CHESTPLATE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.iron_chestplate").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:iron_leggings")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_ARMOR_LEGGINGS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_ARMOR_LEGGINGS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.iron_leggings").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:iron_boots")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_ARMOR_BOOTS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_ARMOR_BOOTS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.iron_boots").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:iron_swords")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_SWORD.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_SWORD.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.iron_sword").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:iron_shovels")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_SHOVEL.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_SHOVEL.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.iron_shovel").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:iron_picks")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_PICKAXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_PICKAXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.iron_pickaxe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:iron_axes")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_AXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_AXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.iron_axe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:iron_hoes")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_HOE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_IRON_HOE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.iron_hoe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		}
 		if (target.is(ItemTags.create(ResourceLocation.parse("forge:golden_helmets")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_ARMOR_HELMET.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_ARMOR_HELMET.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.golden_helmet").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:golden_chestplates")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_ARMOR_CHESTPLATE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_ARMOR_CHESTPLATE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.golden_chestplate").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:golden_leggings")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_ARMOR_LEGGINGS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_ARMOR_LEGGINGS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.golden_leggings").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:golden_boots")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_ARMOR_BOOTS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_ARMOR_BOOTS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.golden_boots").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:golden_swords")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_SWORD.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_SWORD.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.golden_sword").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:golden_shovels")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_SHOVEL.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_SHOVEL.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.golden_shovel").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:golden_picks")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_PICKAXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_PICKAXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.golden_pickaxe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:golden_axes")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_AXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_AXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.golden_axe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:golden_hoes")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_HOE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_GOLDEN_HOE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.golden_hoe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		}
 		if (target.is(ItemTags.create(ResourceLocation.parse("forge:diamond_helmets")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_ARMOR_HELMET.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_ARMOR_HELMET.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_helmet").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:diamond_chestplates")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_ARMOR_CHESTPLATE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_ARMOR_CHESTPLATE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_chestplate").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:diamond_leggings")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_ARMOR_LEGGINGS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_ARMOR_LEGGINGS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_leggings").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:diamond_boots")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_ARMOR_BOOTS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_ARMOR_BOOTS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_boots").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:diamond_swords")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_SWORD.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_SWORD.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_sword").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:diamond_shovels")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_SHOVEL.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_SHOVEL.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_shovel").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:diamond_picks")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_PICKAXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_PICKAXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_pickaxe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:diamond_axes")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_AXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_AXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_axe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:diamond_hoes")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_HOE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_DIAMOND_HOE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_hoe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		}
 		if (target.is(ItemTags.create(ResourceLocation.parse("forge:netherite_helmets")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_ARMOR_HELMET.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_ARMOR_HELMET.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_helmet").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:netherite_chestplates")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_ARMOR_CHESTPLATE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_ARMOR_CHESTPLATE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_chestplate").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:netherite_leggings")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_ARMOR_LEGGINGS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_ARMOR_LEGGINGS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_leggings").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:netherite_boots")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_ARMOR_BOOTS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_ARMOR_BOOTS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_boots").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:netherite_swords")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_SWORD.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_SWORD.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_sword").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:netherite_swords")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_SHOVEL.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_SHOVEL.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_shovel").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:netherite_swords")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_PICKAXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_PICKAXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_pick").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:netherite_axes")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_AXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_AXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_axe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:netherite_hoes")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_HOE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_NETHERITE_HOE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.netherite_hoe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		}
 		if (target.is(ItemTags.create(ResourceLocation.parse("forge:turtle_helmets")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_TURTLE_SHELL_HELMET.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_TURTLE_SHELL_HELMET.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.turtle_helmet").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		}
 		if (target.is(ItemTags.create(ResourceLocation.parse("forge:ethereal_helmets")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_ARMOR_HELMET.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_ARMOR_HELMET.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.ethereal_armor_helmet").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:ethereal_chestplates")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_ARMOR_CHESTPLATE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_ARMOR_CHESTPLATE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.ethereal_armor_chestplate").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:ethereal_leggings")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_ARMOR_LEGGINGS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_ARMOR_LEGGINGS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.ethereal_armor_leggings").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:ethereal_boots")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_ARMOR_BOOTS.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_ARMOR_BOOTS.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.ethereal_armor_boots").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:ethereal_swords")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_SWORD.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_SWORD.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.ethereal_sword").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:ethereal_shovels")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_SHOVEL.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_SHOVEL.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.ethereal_shovel").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:ethereal_picks")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_PICKAXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_PICKAXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.ethereal_pickaxe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:ethereal_axes")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_AXE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_AXE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.ethereal_axe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.is(ItemTags.create(ResourceLocation.parse("forge:ethereal_hoes")))) {
-			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_HOE.get());
+			product = new ItemStack(SuperiorsmithingModItems.SHELLED_ETHEREAL_HOE.get()).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.ethereal_hoe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));

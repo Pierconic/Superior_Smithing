@@ -64,7 +64,7 @@ public class EchoBindingProcedure {
 							&& slot1taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.Echo1 = itemstackiterator;
+							_vars.Echo1 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot1taken = true;
@@ -76,7 +76,7 @@ public class EchoBindingProcedure {
 							&& slot2taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.Echo2 = itemstackiterator;
+							_vars.Echo2 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot2taken = true;
@@ -88,7 +88,7 @@ public class EchoBindingProcedure {
 							&& slot3taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.Echo3 = itemstackiterator;
+							_vars.Echo3 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot3taken = true;
@@ -100,7 +100,7 @@ public class EchoBindingProcedure {
 							&& slot4taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.Echo4 = itemstackiterator;
+							_vars.Echo4 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot4taken = true;
@@ -112,7 +112,7 @@ public class EchoBindingProcedure {
 							&& slot5taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.Echo5 = itemstackiterator;
+							_vars.Echo5 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot5taken = true;
@@ -124,7 +124,7 @@ public class EchoBindingProcedure {
 							&& slot6taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.Echo6 = itemstackiterator;
+							_vars.Echo6 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot6taken = true;
@@ -136,7 +136,7 @@ public class EchoBindingProcedure {
 							&& slot7taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.Echo7 = itemstackiterator;
+							_vars.Echo7 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot7taken = true;
@@ -148,7 +148,7 @@ public class EchoBindingProcedure {
 							&& slot8taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.Echo8 = itemstackiterator;
+							_vars.Echo8 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot8taken = true;
@@ -158,108 +158,108 @@ public class EchoBindingProcedure {
 			if (slot1taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.Echo1 = ItemStack.EMPTY;
+					_vars.Echo1 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot2taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.Echo2 = ItemStack.EMPTY;
+					_vars.Echo2 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot3taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.Echo3 = ItemStack.EMPTY;
+					_vars.Echo3 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot4taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.Echo4 = ItemStack.EMPTY;
+					_vars.Echo4 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot5taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.Echo5 = ItemStack.EMPTY;
+					_vars.Echo5 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot6taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.Echo6 = ItemStack.EMPTY;
+					_vars.Echo6 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot7taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.Echo7 = ItemStack.EMPTY;
+					_vars.Echo7 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot8taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.Echo8 = ItemStack.EMPTY;
+					_vars.Echo8 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("forge:echoing")))) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.BootsEcho = (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY);
+					_vars.BootsEcho = (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY).copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			} else {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.BootsEcho = ItemStack.EMPTY;
+					_vars.BootsEcho = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("forge:echoing")))) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.PantsEcho = (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY);
+					_vars.PantsEcho = (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY).copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			} else {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.PantsEcho = ItemStack.EMPTY;
+					_vars.PantsEcho = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("forge:echoing")))) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.ChestplateEcho = (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY);
+					_vars.ChestplateEcho = (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			} else {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.ChestplateEcho = ItemStack.EMPTY;
+					_vars.ChestplateEcho = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("forge:echoing")))) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.HelmetEcho = (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY);
+					_vars.HelmetEcho = (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			} else {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.HelmetEcho = ItemStack.EMPTY;
+					_vars.HelmetEcho = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}

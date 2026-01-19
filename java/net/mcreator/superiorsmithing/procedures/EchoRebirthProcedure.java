@@ -236,42 +236,42 @@ public class EchoRebirthProcedure {
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.Echo1 = ItemStack.EMPTY;
+			_vars.Echo1 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.Echo2 = ItemStack.EMPTY;
+			_vars.Echo2 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.Echo3 = ItemStack.EMPTY;
+			_vars.Echo3 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.Echo4 = ItemStack.EMPTY;
+			_vars.Echo4 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.Echo5 = ItemStack.EMPTY;
+			_vars.Echo5 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.Echo6 = ItemStack.EMPTY;
+			_vars.Echo6 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.Echo7 = ItemStack.EMPTY;
+			_vars.Echo7 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.Echo8 = ItemStack.EMPTY;
+			_vars.Echo8 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 	}

@@ -29,57 +29,57 @@ public class NetheriteUpgradeProcedure {
 		double level = 0;
 		String NewName = "";
 		String ItemName = "";
-		target = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY);
+		target = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).copy();
 		if (target.getItem() == Items.DIAMOND_HELMET) {
-			product = new ItemStack(Items.NETHERITE_HELMET);
+			product = new ItemStack(Items.NETHERITE_HELMET).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_helmet").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.DIAMOND_CHESTPLATE) {
-			product = new ItemStack(Items.NETHERITE_CHESTPLATE);
+			product = new ItemStack(Items.NETHERITE_CHESTPLATE).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_chestplate").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.DIAMOND_LEGGINGS) {
-			product = new ItemStack(Items.NETHERITE_LEGGINGS);
+			product = new ItemStack(Items.NETHERITE_LEGGINGS).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_leggings").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.DIAMOND_BOOTS) {
-			product = new ItemStack(Items.NETHERITE_BOOTS);
+			product = new ItemStack(Items.NETHERITE_BOOTS).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_boots").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.DIAMOND_SWORD) {
-			product = new ItemStack(Items.NETHERITE_SWORD);
+			product = new ItemStack(Items.NETHERITE_SWORD).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_sword").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.DIAMOND_SHOVEL) {
-			product = new ItemStack(Items.NETHERITE_SHOVEL);
+			product = new ItemStack(Items.NETHERITE_SHOVEL).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_shovel").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.DIAMOND_PICKAXE) {
-			product = new ItemStack(Items.NETHERITE_PICKAXE);
+			product = new ItemStack(Items.NETHERITE_PICKAXE).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_pickaxe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.DIAMOND_AXE) {
-			product = new ItemStack(Items.NETHERITE_AXE);
+			product = new ItemStack(Items.NETHERITE_AXE).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_axe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 			}
 		} else if (target.getItem() == Items.DIAMOND_HOE) {
-			product = new ItemStack(Items.NETHERITE_HOE);
+			product = new ItemStack(Items.NETHERITE_HOE).copy();
 			if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.minecraft.diamond_hoe").getString() + "]")) {
 				ItemName = target.getDisplayName().getString();
 				product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));

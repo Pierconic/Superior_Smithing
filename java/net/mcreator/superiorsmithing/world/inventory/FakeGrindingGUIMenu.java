@@ -83,10 +83,20 @@ public class FakeGrindingGUIMenu extends AbstractContainerMenu implements Suppli
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 49, 19) {
+			private final int slot = 0;
+			private int x = FakeGrindingGUIMenu.this.x;
+			private int y = FakeGrindingGUIMenu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 49, 40) {
+			private final int slot = 1;
+			private int x = FakeGrindingGUIMenu.this.x;
+			private int y = FakeGrindingGUIMenu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 129, 34) {
+			private final int slot = 2;
+			private int x = FakeGrindingGUIMenu.this.x;
+			private int y = FakeGrindingGUIMenu.this.y;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

@@ -39,36 +39,36 @@ public class ChargedEquipmentConversionProcedure {
 		double level = 0;
 		double damage = 0;
 		double armorslot = 0;
-		target = itemstack;
-		product = new ItemStack(Blocks.AIR);
+		target = itemstack.copy();
+		product = new ItemStack(Blocks.AIR).copy();
 		if (entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES).ChargeRemaining > 0 && target.is(ItemTags.create(ResourceLocation.parse("forge:uncharged")))) {
 			if (target.getItem() instanceof SwordItem) {
 				if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_IRON_SWORD.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_SWORD.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_iron_sword").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_GOLDEN_SWORD.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_SWORD.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_golden_sword").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_DIAMOND_SWORD.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_SWORD.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_diamond_sword").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_NETHERITE_SWORD.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_SWORD.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_netherite_sword").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_ETHEREAL_SWORD.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_SWORD.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_ethereal_sword").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -76,31 +76,31 @@ public class ChargedEquipmentConversionProcedure {
 				}
 			} else if (target.getItem() instanceof AxeItem) {
 				if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_IRON_AXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_AXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_iron_axe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_GOLDEN_AXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_AXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_golden_axe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_DIAMOND_AXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_AXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_diamond_axe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_NETHERITE_AXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_AXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_netherite_axe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_ETHEREAL_AXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_AXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_ethereal_axe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -108,31 +108,31 @@ public class ChargedEquipmentConversionProcedure {
 				}
 			} else if (target.getItem() instanceof PickaxeItem) {
 				if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_IRON_PICKAXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_PICKAXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_iron_pickaxe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_GOLDEN_PICKAXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_PICKAXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_golden_pickaxe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_DIAMOND_PICK.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_PICK.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_PICK.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_diamond_pickaxe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_NETHERITE_PICKAXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_PICKAXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_netherite_pickaxe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_ETHEREAL_PICKAXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_PICKAXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_ethereal_pickaxe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -140,31 +140,31 @@ public class ChargedEquipmentConversionProcedure {
 				}
 			} else if (target.getItem() instanceof ShovelItem) {
 				if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_IRON_SHOVEL.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_SHOVEL.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_iron_shovel").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_GOLDEN_SHOVEL.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_SHOVEL.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_golden_shovel").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_DIAMOND_SHOVEL.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_SHOVEL.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_diamond_shovel").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_NETHERITE_SHOVEL.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_SHOVEL.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_netherite_shovel").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_ETHEREAL_SHOVEL.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_SHOVEL.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_ethereal_shovel").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -172,31 +172,31 @@ public class ChargedEquipmentConversionProcedure {
 				}
 			} else if (target.getItem() instanceof HoeItem) {
 				if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_IRON_HOE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_HOE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_iron_hoe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_GOLDEN_HOE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_HOE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_golden_hoe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_DIAMOND_HOE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_HOE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_diamond_hoe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_NETHERITE_HOE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_HOE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_netherite_hoe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_ETHEREAL_HOE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_HOE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_ethereal_hoe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -206,31 +206,31 @@ public class ChargedEquipmentConversionProcedure {
 		} else if (entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES).ChargeRemaining < 0 && target.is(ItemTags.create(ResourceLocation.parse("forge:charged")))) {
 			if (target.getItem() instanceof SwordItem) {
 				if (target.getItem() == SuperiorsmithingModItems.CHARGED_IRON_SWORD.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_SWORD.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_iron_sword").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_GOLDEN_SWORD.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_SWORD.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_golden_sword").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_DIAMOND_SWORD.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_SWORD.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_diamond_sword").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_NETHERITE_SWORD.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_SWORD.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_netherite_sword").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_ETHEREAL_SWORD.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_SWORD.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_ethereal_sword").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -238,31 +238,31 @@ public class ChargedEquipmentConversionProcedure {
 				}
 			} else if (target.getItem() instanceof AxeItem) {
 				if (target.getItem() == SuperiorsmithingModItems.CHARGED_IRON_AXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_AXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_iron_axe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_GOLDEN_AXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_AXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_golden_axe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_DIAMOND_AXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_AXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_diamond_axe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_NETHERITE_AXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_AXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_netherite_axe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_ETHEREAL_AXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_AXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_ethereal_axe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -270,31 +270,31 @@ public class ChargedEquipmentConversionProcedure {
 				}
 			} else if (target.getItem() instanceof PickaxeItem) {
 				if (target.getItem() == SuperiorsmithingModItems.CHARGED_IRON_PICKAXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_PICKAXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_iron_pickaxe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_GOLDEN_PICKAXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_PICKAXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_golden_pickaxe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_DIAMOND_PICK.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_PICK.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_PICK.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_diamond_pickaxe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_NETHERITE_PICKAXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_PICKAXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_netherite_pickaxe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_ETHEREAL_PICKAXE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_PICKAXE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_ethereal_pickaxe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -302,31 +302,31 @@ public class ChargedEquipmentConversionProcedure {
 				}
 			} else if (target.getItem() instanceof ShovelItem) {
 				if (target.getItem() == SuperiorsmithingModItems.CHARGED_IRON_SHOVEL.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_SHOVEL.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_iron_shovel").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_GOLDEN_SHOVEL.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_SHOVEL.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_golden_shovel").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_DIAMOND_SHOVEL.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_SHOVEL.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_diamond_shovel").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_NETHERITE_SHOVEL.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_SHOVEL.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_netherite_shovel").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_ETHEREAL_SHOVEL.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_SHOVEL.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_ethereal_shovel").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -334,31 +334,31 @@ public class ChargedEquipmentConversionProcedure {
 				}
 			} else if (target.getItem() instanceof HoeItem) {
 				if (target.getItem() == SuperiorsmithingModItems.CHARGED_IRON_HOE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_HOE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_iron_hoe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_GOLDEN_HOE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_HOE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_golden_hoe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_DIAMOND_HOE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_HOE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_diamond_hoe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_NETHERITE_HOE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_HOE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_netherite_hoe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 					}
 				} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_ETHEREAL_HOE.get()) {
-					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_HOE.get()).copy();
 					if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_ethereal_hoe").getString() + "]")) {
 						ItemName = target.getDisplayName().getString();
 						product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));

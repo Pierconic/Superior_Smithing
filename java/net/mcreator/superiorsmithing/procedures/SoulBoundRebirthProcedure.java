@@ -70,42 +70,42 @@ public class SoulBoundRebirthProcedure {
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.SoulBoundItem = ItemStack.EMPTY;
+			_vars.SoulBoundItem = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.SoulBoundItem2 = ItemStack.EMPTY;
+			_vars.SoulBoundItem2 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.SoulBoundItem3 = ItemStack.EMPTY;
+			_vars.SoulBoundItem3 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.SoulBoundItem4 = ItemStack.EMPTY;
+			_vars.SoulBoundItem4 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.SoulBoundItem5 = ItemStack.EMPTY;
+			_vars.SoulBoundItem5 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.SoulBoundItem6 = ItemStack.EMPTY;
+			_vars.SoulBoundItem6 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.SoulBoundItem7 = ItemStack.EMPTY;
+			_vars.SoulBoundItem7 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 		{
 			SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-			_vars.SoulBoundItem8 = ItemStack.EMPTY;
+			_vars.SoulBoundItem8 = ItemStack.EMPTY.copy();
 			_vars.syncPlayerVariables(entity);
 		}
 	}

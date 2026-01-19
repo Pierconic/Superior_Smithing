@@ -56,9 +56,9 @@ public class ShelledCycling2Procedure {
 				&& !((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof CrossbowItem)
 				&& !((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof TridentItem)) {
 			found = false;
-			HandItem = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+			HandItem = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
 			ItemNumber = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount();
-			InventoryItem = new ItemStack(Blocks.AIR);
+			InventoryItem = new ItemStack(Blocks.AIR).copy();
 			SlotNumber = 0;
 			for (int index0 = 0; index0 < 36; index0++) {
 				if (!found) {
@@ -91,7 +91,7 @@ public class ShelledCycling2Procedure {
 								}
 								return ItemStack.EMPTY;
 							}
-						}.getItemStack((int) SlotNumber, sourceentity));
+						}.getItemStack((int) SlotNumber, sourceentity)).copy();
 						if (sourceentity.getCapability(Capabilities.ItemHandler.ENTITY, null) instanceof IItemHandlerModifiable _modHandler) {
 							ItemStack _setstack = HandItem.copy();
 							_setstack.setCount((int) ItemNumber);

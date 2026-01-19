@@ -92,12 +92,20 @@ public class SuperiorSmithingGUIMenu extends AbstractContainerMenu implements Su
 			}
 		}
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 98, 18) {
+			private final int slot = 1;
+			private int x = SuperiorSmithingGUIMenu.this.x;
+			private int y = SuperiorSmithingGUIMenu.this.y;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return stack.is(ItemTags.create(ResourceLocation.parse("forge:modding_ingredients")));
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 152, 28) {
+			private final int slot = 2;
+			private int x = SuperiorSmithingGUIMenu.this.x;
+			private int y = SuperiorSmithingGUIMenu.this.y;
+
 			@Override
 			public void onTake(Player entity, ItemStack stack) {
 				super.onTake(entity, stack);
@@ -110,8 +118,15 @@ public class SuperiorSmithingGUIMenu extends AbstractContainerMenu implements Su
 			}
 		}));
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 50, 28) {
+			private final int slot = 0;
+			private int x = SuperiorSmithingGUIMenu.this.x;
+			private int y = SuperiorSmithingGUIMenu.this.y;
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 98, 42) {
+			private final int slot = 3;
+			private int x = SuperiorSmithingGUIMenu.this.x;
+			private int y = SuperiorSmithingGUIMenu.this.y;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return stack.is(ItemTags.create(ResourceLocation.parse("forge:smithing_template")));

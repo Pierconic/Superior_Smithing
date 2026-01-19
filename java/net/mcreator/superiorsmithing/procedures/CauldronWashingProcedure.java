@@ -58,116 +58,116 @@ public class CauldronWashingProcedure {
 		double damagelevel = 0;
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.WATER_CAULDRON
 				&& (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(ResourceLocation.parse("forge:leathery")))) {
-			grounditem = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+			grounditem = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).copy();
 			if (grounditem.getItem() instanceof SwordItem) {
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_swords")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_SWORD.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_swords")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_SWORD.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_swords")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_SWORD.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_swords")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_SWORD.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_SWORD.get()).copy();
 				}
 			} else if (grounditem.getItem() instanceof PickaxeItem) {
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_picks")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_PICKAXE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_picks")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_PICKAXE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_picks")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_PICKAXE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_picks")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_PICKAXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_PICKAXE.get()).copy();
 				}
 			} else if (grounditem.getItem() instanceof AxeItem) {
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_axes")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_AXE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_axes")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_AXE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_axes")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_AXE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_axes")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_AXE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_AXE.get()).copy();
 				}
 			} else if (grounditem.getItem() instanceof ShovelItem) {
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_shovels")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_SHOVEL.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_shovels")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_SHOVEL.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_shovels")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_SHOVEL.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_shovels")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_SHOVEL.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:ethereal_shovels")))) {
-					product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_SHOVEL.get());
+					product = new ItemStack(SuperiorsmithingModItems.ETHEREAL_SHOVEL.get()).copy();
 				}
 			} else if (grounditem.getItem() instanceof HoeItem) {
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_hoes")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_HOE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_hoes")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_HOE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_hoes")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_HOE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_hoes")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_HOE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_HOE.get()).copy();
 				}
 			} else {
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_helmets")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_ARMOR_HELMET.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_ARMOR_HELMET.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_chestplates")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_ARMOR_CHESTPLATE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_ARMOR_CHESTPLATE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_leggings")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_ARMOR_LEGGINGS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_ARMOR_LEGGINGS.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:diamond_boots")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_ARMOR_BOOTS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_DIAMOND_ARMOR_BOOTS.get()).copy();
 				}
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_helmets")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_ARMOR_HELMET.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_ARMOR_HELMET.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_chestplates")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_ARMOR_CHESTPLATE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_ARMOR_CHESTPLATE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_leggings")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_ARMOR_LEGGINGS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_ARMOR_LEGGINGS.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:golden_boots")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_ARMOR_BOOTS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_GOLDEN_ARMOR_BOOTS.get()).copy();
 				}
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_helmets")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_ARMOR_HELMET.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_ARMOR_HELMET.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_chestplates")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_ARMOR_CHESTPLATE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_ARMOR_CHESTPLATE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_leggings")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_ARMOR_LEGGINGS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_ARMOR_LEGGINGS.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:iron_boots")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_ARMOR_BOOTS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_IRON_ARMOR_BOOTS.get()).copy();
 				}
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_helmets")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_CHAINMAIL_ARMOR_HELMET.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_CHAINMAIL_ARMOR_HELMET.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_chestplates")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_CHAINMAIL_ARMOR_CHESTPLATE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_CHAINMAIL_ARMOR_CHESTPLATE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_leggings")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_CHAINMAIL_ARMOR_LEGGINGS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_CHAINMAIL_ARMOR_LEGGINGS.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:chainmail_boots")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_CHAINMAIL_ARMOR_BOOTS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_CHAINMAIL_ARMOR_BOOTS.get()).copy();
 				}
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_helmets")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_ARMOR_HELMET.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_ARMOR_HELMET.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_chestplates")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_ARMOR_CHESTPLATE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_ARMOR_CHESTPLATE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_leggings")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_ARMOR_LEGGINGS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_ARMOR_LEGGINGS.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:netherite_boots")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_ARMOR_BOOTS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_NETHERITE_ARMOR_BOOTS.get()).copy();
 				}
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:leather_helmets")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_LEATHER_ARMOR_HELMET.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_LEATHER_ARMOR_HELMET.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:leather_chestplates")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_LEATHER_ARMOR_CHESTPLATE.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_LEATHER_ARMOR_CHESTPLATE.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:leather_leggings")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_LEATHER_ARMOR_LEGGINGS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_LEATHER_ARMOR_LEGGINGS.get()).copy();
 				} else if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:leather_boots")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_LEATHER_ARMOR_BOOTS.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_LEATHER_ARMOR_BOOTS.get()).copy();
 				}
 				if (grounditem.is(ItemTags.create(ResourceLocation.parse("forge:turtle_helmets")))) {
-					product = new ItemStack(SuperiorsmithingModItems.BOUND_TURTLE_SHELL_HELMET.get());
+					product = new ItemStack(SuperiorsmithingModItems.BOUND_TURTLE_SHELL_HELMET.get()).copy();
 				}
 			}
 			if (grounditem.isDamaged()) {

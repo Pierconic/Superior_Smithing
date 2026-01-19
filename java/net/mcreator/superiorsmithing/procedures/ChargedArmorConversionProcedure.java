@@ -33,33 +33,33 @@ public class ChargedArmorConversionProcedure {
 		double level = 0;
 		double damage = 0;
 		double armorslot = 0;
-		target = itemstack;
-		product = new ItemStack(Blocks.AIR);
+		target = itemstack.copy();
+		product = new ItemStack(Blocks.AIR).copy();
 		if (entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES).ChargeRemaining > 0) {
 			if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_diamond_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_diamond_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_diamond_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_diamond_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -67,28 +67,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_ethereal_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_ethereal_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_ethereal_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_ethereal_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -96,28 +96,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_netherite_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_netherite_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_netherite_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_netherite_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -125,28 +125,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_golden_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_golden_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_golden_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_golden_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -154,28 +154,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_iron_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_iron_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_iron_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_IRON_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_iron_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -183,28 +183,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_leather_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_leather_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_leather_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_leather_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -212,28 +212,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_chainmail_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_chainmail_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_chainmail_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_chainmail_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -241,7 +241,7 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.UNCHARGED_TURTLE_SHELL_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.CHARGED_TURTLE_SHELL_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.CHARGED_TURTLE_SHELL_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.uncharged_turtle_shell_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -250,28 +250,28 @@ public class ChargedArmorConversionProcedure {
 		} else if (entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES).ChargeRemaining < 0) {
 			if (target.getItem() == SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_diamond_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_diamond_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_diamond_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_DIAMOND_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_DIAMOND_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_diamond_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -279,28 +279,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_ethereal_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_ethereal_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_ethereal_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_ETHEREAL_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_ETHEREAL_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_ethereal_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -308,28 +308,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_netherite_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_netherite_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_netherite_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_NETHERITE_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_NETHERITE_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_netherite_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -337,28 +337,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_golden_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_golden_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_golden_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_GOLDEN_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_GOLDEN_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_golden_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -366,28 +366,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.CHARGED_IRON_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_iron_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_IRON_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_iron_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_IRON_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_iron_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_IRON_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_IRON_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_iron_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -395,28 +395,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_leather_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_leather_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_leather_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_LEATHER_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_LEATHER_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_leather_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -424,28 +424,28 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_chainmail_armor_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_CHESTPLATE.get()) {
 				armorslot = 2;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_CHESTPLATE.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_CHESTPLATE.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_chainmail_armor_chestplate").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_LEGGINGS.get()) {
 				armorslot = 1;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_LEGGINGS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_LEGGINGS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_chainmail_armor_leggings").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
 				}
 			} else if (target.getItem() == SuperiorsmithingModItems.CHARGED_CHAINMAIL_ARMOR_BOOTS.get()) {
 				armorslot = 0;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_BOOTS.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_CHAINMAIL_ARMOR_BOOTS.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_chainmail_armor_boots").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));
@@ -453,7 +453,7 @@ public class ChargedArmorConversionProcedure {
 			}
 			if (target.getItem() == SuperiorsmithingModItems.CHARGED_TURTLE_SHELL_HELMET.get()) {
 				armorslot = 3;
-				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_TURTLE_SHELL_HELMET.get());
+				product = new ItemStack(SuperiorsmithingModItems.UNCHARGED_TURTLE_SHELL_HELMET.get()).copy();
 				if (!(target.getDisplayName().getString()).equals("[" + Component.translatable("item.superiorsmithing.charged_turtle_shell_helmet").getString() + "]")) {
 					ItemName = target.getDisplayName().getString();
 					product.set(DataComponents.CUSTOM_NAME, Component.literal(((ItemName.replace("[", "")).replace("]", ""))));

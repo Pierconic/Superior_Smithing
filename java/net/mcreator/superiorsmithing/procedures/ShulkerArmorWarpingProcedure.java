@@ -59,7 +59,7 @@ public class ShulkerArmorWarpingProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) SlotNumber, entity));
+					}.getItemStack((int) SlotNumber, entity)).copy();
 					if (entity.getCapability(Capabilities.ItemHandler.ENTITY, null) instanceof IItemHandlerModifiable _modHandler) {
 						ItemStack _setstack = ItemStack.EMPTY.copy();
 						_setstack.setCount(1);
@@ -98,7 +98,7 @@ public class ShulkerArmorWarpingProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) SlotNumber, entity));
+					}.getItemStack((int) SlotNumber, entity)).copy();
 					if (entity.getCapability(Capabilities.ItemHandler.ENTITY, null) instanceof IItemHandlerModifiable _modHandler) {
 						ItemStack _setstack = ItemStack.EMPTY.copy();
 						_setstack.setCount(1);
@@ -137,7 +137,7 @@ public class ShulkerArmorWarpingProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) SlotNumber, entity));
+					}.getItemStack((int) SlotNumber, entity)).copy();
 					if (entity.getCapability(Capabilities.ItemHandler.ENTITY, null) instanceof IItemHandlerModifiable _modHandler) {
 						ItemStack _setstack = ItemStack.EMPTY.copy();
 						_setstack.setCount(1);
@@ -176,7 +176,7 @@ public class ShulkerArmorWarpingProcedure {
 							}
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack((int) SlotNumber, entity));
+					}.getItemStack((int) SlotNumber, entity)).copy();
 					if (entity.getCapability(Capabilities.ItemHandler.ENTITY, null) instanceof IItemHandlerModifiable _modHandler) {
 						ItemStack _setstack = ItemStack.EMPTY.copy();
 						_setstack.setCount(1);

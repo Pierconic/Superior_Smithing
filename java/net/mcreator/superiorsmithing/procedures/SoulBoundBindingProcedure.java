@@ -59,7 +59,7 @@ public class SoulBoundBindingProcedure {
 							&& slot1taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.SoulBoundItem = itemstackiterator;
+							_vars.SoulBoundItem = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot1taken = true;
@@ -67,7 +67,7 @@ public class SoulBoundBindingProcedure {
 							&& slot2taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.SoulBoundItem2 = itemstackiterator;
+							_vars.SoulBoundItem2 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot2taken = true;
@@ -75,7 +75,7 @@ public class SoulBoundBindingProcedure {
 							&& slot3taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.SoulBoundItem3 = itemstackiterator;
+							_vars.SoulBoundItem3 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot3taken = true;
@@ -83,7 +83,7 @@ public class SoulBoundBindingProcedure {
 							&& slot4taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.SoulBoundItem4 = itemstackiterator;
+							_vars.SoulBoundItem4 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot4taken = true;
@@ -91,7 +91,7 @@ public class SoulBoundBindingProcedure {
 							&& slot5taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.SoulBoundItem5 = itemstackiterator;
+							_vars.SoulBoundItem5 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot5taken = true;
@@ -99,7 +99,7 @@ public class SoulBoundBindingProcedure {
 							&& slot6taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.SoulBoundItem6 = itemstackiterator;
+							_vars.SoulBoundItem6 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot6taken = true;
@@ -107,7 +107,7 @@ public class SoulBoundBindingProcedure {
 							&& slot7taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.SoulBoundItem7 = itemstackiterator;
+							_vars.SoulBoundItem7 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot7taken = true;
@@ -115,7 +115,7 @@ public class SoulBoundBindingProcedure {
 							&& slot8taken == false) {
 						{
 							SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-							_vars.SoulBoundItem8 = itemstackiterator;
+							_vars.SoulBoundItem8 = itemstackiterator.copy();
 							_vars.syncPlayerVariables(entity);
 						}
 						slot8taken = true;
@@ -125,56 +125,56 @@ public class SoulBoundBindingProcedure {
 			if (slot1taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.SoulBoundItem = ItemStack.EMPTY;
+					_vars.SoulBoundItem = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot2taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.SoulBoundItem2 = ItemStack.EMPTY;
+					_vars.SoulBoundItem2 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot3taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.SoulBoundItem3 = ItemStack.EMPTY;
+					_vars.SoulBoundItem3 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot4taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.SoulBoundItem4 = ItemStack.EMPTY;
+					_vars.SoulBoundItem4 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot5taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.SoulBoundItem5 = ItemStack.EMPTY;
+					_vars.SoulBoundItem5 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot6taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.SoulBoundItem6 = ItemStack.EMPTY;
+					_vars.SoulBoundItem6 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot7taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.SoulBoundItem7 = ItemStack.EMPTY;
+					_vars.SoulBoundItem7 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
 			if (slot8taken == false) {
 				{
 					SuperiorsmithingModVariables.PlayerVariables _vars = entity.getData(SuperiorsmithingModVariables.PLAYER_VARIABLES);
-					_vars.SoulBoundItem8 = ItemStack.EMPTY;
+					_vars.SoulBoundItem8 = ItemStack.EMPTY.copy();
 					_vars.syncPlayerVariables(entity);
 				}
 			}
